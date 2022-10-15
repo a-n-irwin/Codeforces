@@ -1,4 +1,4 @@
-// Oct 15 2022.  Accepted -> 46ms 0kb
+// 176286411  Oct 15 2022.  Accepted -> 46ms 0kb
 HashSet<int> xyLevels = new();
 
 int n = int.Parse(Console.ReadLine());
