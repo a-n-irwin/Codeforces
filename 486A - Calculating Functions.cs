@@ -1,11 +1,3 @@
-// 176380425  Oct. 15 2022 06:11PM  Stuck at "In queue"
-// 176380425  Oct. xx 2022 
+// 176432363  Oct. 16 2022 08:59:04  Accepted -> 46ms 0kb
 long n = long.Parse(Console.ReadLine());
-
-long nNeg = (n%2 == 0)? n/2 : n/2 + 1;
-long nPos = n-nNeg;
-
-long neg = (nNeg*(-2*nNeg))/2;
-long pos = (nPos*(2+2*nPos))/2;
-
-Console.WriteLine(neg+pos);
+Console.WriteLine(n%2 == 0? n/2 : -(n+1)/2);
