@@ -1,4 +1,4 @@
-// 177090918  Oct. 20 09:57:34  Accepted -> 61ms 6420kb
+// 177090918  Oct. 20 2022 09:57:34  Accepted -> 61ms 6420kb
 using System.Text;
 
 int T = int.Parse(Console.ReadLine());
